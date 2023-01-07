@@ -1,0 +1,57 @@
+/* 1. Header Styles */
+/* 2. Navgation Styles */
+/* 3. Heading Styles */
+/* 4. Body Styles */
+/* 5. Footer Styles */
+/* 6. Media Queries */
+
+
+html,body {
+    overflow-x: hidden;
+}
+
+/* 1. Header Styles */
+
+
+/* 2. Navgation Styles */
+.nav-link {
+    text-align: center;
+}
+
+/* 3. Heading Styles */
+#aboutHeader {
+    text-align: center;
+}
+
+/* 4. Body Styles */
+.rulesList {
+    list-style-type: decimal;
+}
+p {
+    text-indent: .75em;
+}
+p#modalText {
+    font-size: 2vw;
+    text-indent: 0em;
+}
+#mallardLogo {
+    width: 50%;
+}
+
+/* 5. Footer Styles */
+footer {
+    text-align: center;
+}
+
+/* 6. Media Queries */
+@media screen and (min-width: 1200px) {
+    .nav-link {
+        text-align: unset;
+    }
+    p#modalText {
+        font-size: 1.15vw;
+    }
+    footer {
+        text-align: unset;
+    }
+}
